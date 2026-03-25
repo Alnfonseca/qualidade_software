@@ -3,7 +3,7 @@ name: CI
 on:
   push:
     branches: 
-      - "004-ci"  # Dispara em qualquer commit feito em qualquer branch
+      - "**"  # Dispara em qualquer commit feito em qualquer branch
 
 jobs:
   build:
